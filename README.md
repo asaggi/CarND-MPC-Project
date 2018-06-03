@@ -55,3 +55,15 @@ The waypoints provided by the simulator are transformed to the car coordinate sy
 ### Model Predictive Control with Latency
 
 To handle actuator latency, the state values are calculated using the model and the delay interval. These values are used instead of the initial one. The code implementing that could be found at ./src/main.cpp from line 121 to line 139.
+
+---
+### Output
+
+![Start](https://github.com/asaggi/CarND-MPC-Project/blob/master/data/SS-I.png)
+---
+![Start](https://github.com/asaggi/CarND-MPC-Project/blob/master/data/SS-II.png)
+---
+![Start](https://github.com/asaggi/CarND-MPC-Project/blob/master/data/SS-III.png)
+---
+![Start](https://github.com/asaggi/CarND-MPC-Project/blob/master/data/SS-IV.png)
+---
